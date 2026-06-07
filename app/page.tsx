@@ -102,17 +102,17 @@ export default function Home() {
         {/* HERO SECTION */}
         <section id="hero">
           <img
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1200"
+            src="/profile.png"
             alt="Editorial"
             className="hero-img"
             id="hero-img"
           />
           <div className="hero-title-container container">
-            <span className="huge-type parallax-text" data-speed="-2">
-              VISION
+            <span className="huge-type parallax-text" data-speed="-2" style={{ fontSize: "clamp(4rem, 12vw, 15rem)", whiteSpace: "nowrap" }}>
+              DATA / AI
             </span>
-            <span className="huge-type outline-text parallax-text" data-speed="2" style={{ paddingLeft: "200px" }}>
-              SYSTEMS
+            <span className="huge-type outline-text parallax-text" data-speed="2" style={{ fontSize: "clamp(4rem, 10vw, 12rem)", whiteSpace: "nowrap", textAlign: "center", display: "block", width: "100%", letterSpacing: "0.1em" }}>
+              AMGHAR
             </span>
           </div>
         </section>
@@ -128,7 +128,7 @@ export default function Home() {
                   marginBottom: "40px",
                 }}
               >
-                WE BUILD DIGITAL ARTIFACTS THAT SHATTER THE NOISE.
+                DATA ANALYST / AI STUDENT
               </h2>
               <p
                 style={{
@@ -137,8 +137,7 @@ export default function Home() {
                   color: "#888",
                 }}
               >
-                Visceral aesthetic. Technical precision. We operate at the intersection of high-fashion editorial and
-                brutalist digital architecture.
+                Specializing in robust ETL pipelines, Machine Learning, and Deep Learning solutions to turn raw data into strategic decisions.
               </p>
             </div>
           </div>
