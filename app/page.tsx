@@ -84,7 +84,7 @@ export default function Home() {
       <div className="blob" id="cursor-blob"></div>
 
       <nav>
-        <div className="logo">VISCERA ©26</div>
+        <div className="logo">AMGHAR ABDENNOUR</div>
         <ul className="nav-links">
           <li>
             <a href="#work">Work</a>
@@ -108,11 +108,11 @@ export default function Home() {
             id="hero-img"
           />
           <div className="hero-title-container container">
-            <span className="huge-type parallax-text" data-speed="-2" style={{ fontSize: "clamp(4rem, 12vw, 15rem)", whiteSpace: "nowrap" }}>
+            <span className="huge-type parallax-text whitespace-nowrap !text-4xl md:!text-7xl lg:!text-[12vw]" data-speed="-2" style={{ whiteSpace: "nowrap" }}>
               DATA / AI
             </span>
-            <span className="huge-type outline-text parallax-text" data-speed="2" style={{ fontSize: "clamp(4rem, 10vw, 12rem)", whiteSpace: "nowrap", textAlign: "center", display: "block", width: "100%", letterSpacing: "0.1em" }}>
-              AMGHAR
+            <span className="huge-type outline-text parallax-text whitespace-nowrap text-center block w-full tracking-widest !text-3xl md:!text-6xl lg:!text-[10vw]" data-speed="2" style={{ whiteSpace: "nowrap" }}>
+              ANALYTICS
             </span>
           </div>
         </section>
